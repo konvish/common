@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../gradle-2.8" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/analytics-common" />
+            <option value="$PROJECT_DIR$/biz-common" />
+            <option value="$PROJECT_DIR$/context-common" />
+            <option value="$PROJECT_DIR$/dap-common" />
+            <option value="$PROJECT_DIR$/data-access" />
+            <option value="$PROJECT_DIR$/domain-common" />
+            <option value="$PROJECT_DIR$/kafka-common" />
+            <option value="$PROJECT_DIR$/mu-common" />
+            <option value="$PROJECT_DIR$/mus-common" />
+            <option value="$PROJECT_DIR$/protocol-common" />
+            <option value="$PROJECT_DIR$/rmq-common" />
+            <option value="$PROJECT_DIR$/security-common" />
+            <option value="$PROJECT_DIR$/spring-rest-exception-handler" />
+            <option value="$PROJECT_DIR$/web-common" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

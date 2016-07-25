@@ -1,0 +1,8 @@
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'com.alibaba:fastjson:1.2.3'
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile project(':domain-common')
+    compile project(':protocol-common')
+    compile project(':spring-rest-exception-handler')
+}

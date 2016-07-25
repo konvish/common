@@ -1,0 +1,5 @@
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'commons-lang:commons-lang:2.6'
+    compile project(':biz-common')
+}

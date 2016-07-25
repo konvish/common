@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/analytics-common/analytics-common.iml" filepath="$PROJECT_DIR$/analytics-common/analytics-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/biz-common/biz-common.iml" filepath="$PROJECT_DIR$/biz-common/biz-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/context-common/context-common.iml" filepath="$PROJECT_DIR$/context-common/context-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dap-common/dap-common.iml" filepath="$PROJECT_DIR$/dap-common/dap-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-access/data-access.iml" filepath="$PROJECT_DIR$/data-access/data-access.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain-common/domain-common.iml" filepath="$PROJECT_DIR$/domain-common/domain-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-common/kafka-common.iml" filepath="$PROJECT_DIR$/kafka-common/kafka-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mu-common/mu-common.iml" filepath="$PROJECT_DIR$/mu-common/mu-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mus-common/mus-common.iml" filepath="$PROJECT_DIR$/mus-common/mus-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocol-common/protocol-common.iml" filepath="$PROJECT_DIR$/protocol-common/protocol-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rmq-common/rmq-common.iml" filepath="$PROJECT_DIR$/rmq-common/rmq-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-common/security-common.iml" filepath="$PROJECT_DIR$/security-common/security-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rest-exception-handler/spring-rest-exception-handler.iml" filepath="$PROJECT_DIR$/spring-rest-exception-handler/spring-rest-exception-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-common/web-common.iml" filepath="$PROJECT_DIR$/web-common/web-common.iml" />
+    </modules>
+  </component>
+</project>

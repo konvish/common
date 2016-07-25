@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+       ">
+    <!-- 使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入 -->
+    <context:annotation-config/>
+    <context:component-scan base-package="com.kong"/>
+    <bean id="tokenResolver" class="com.kong.common.managerui.iauth.core.handler.TokenResolver"/>
+    <bean id="embedTokenHandler" class="com.kong.common.managerui.iauth.core.handler.EmbedTokenHandler"/>
+    <bean id="accessTokenHandler" class="com.kong.common.managerui.iauth.client.handler.AccessTokenHandler"/>
+    <!--<bean id="agentCookieCredentialHandler"-->
+    <!--class="cn.thinkjoy.common.managerui.iauth.client.handler.UserAgentCookieCredentialHelper">-->
+    <!--<property name="bundledTo" ref="accessTokenHandler"/>-->
+    <!--</bean>-->
+    <bean id="ucmIntegrationAuthenticator"
+          class="com.kong.common.managerui.iauth.client.DefaultAuthenticator">
+
+        <constructor-arg>
+            <list>
+                <ref bean="tokenResolver"/>
+                <ref bean="embedTokenHandler"/>
+                <ref bean="accessTokenHandler"/>
+                <!--<ref bean="agentCookieCredentialHandler"/>-->
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="delegatingSecurityFilter" class="com.kong.common.managerui.iauth.client.filter.EasyAuthSecurityFilter">
+        <property name="authenticator" ref="ucmIntegrationAuthenticator"/>
+    </bean>
+</beans>
