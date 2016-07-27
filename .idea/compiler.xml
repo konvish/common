@@ -18,5 +18,37 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="analytics-common_main" target="1.8" />
+      <module name="analytics-common_test" target="1.8" />
+      <module name="biz-common_main" target="1.8" />
+      <module name="biz-common_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="context-common_main" target="1.8" />
+      <module name="context-common_test" target="1.8" />
+      <module name="dap-common_main" target="1.8" />
+      <module name="dap-common_test" target="1.8" />
+      <module name="data-access_main" target="1.8" />
+      <module name="data-access_test" target="1.8" />
+      <module name="domain-common_main" target="1.8" />
+      <module name="domain-common_test" target="1.8" />
+      <module name="kafka-common_main" target="1.8" />
+      <module name="kafka-common_test" target="1.8" />
+      <module name="mu-common_main" target="1.8" />
+      <module name="mu-common_test" target="1.8" />
+      <module name="mus-common_main" target="1.8" />
+      <module name="mus-common_test" target="1.8" />
+      <module name="protocol-common_main" target="1.8" />
+      <module name="protocol-common_test" target="1.8" />
+      <module name="rmq-common_main" target="1.8" />
+      <module name="rmq-common_test" target="1.8" />
+      <module name="security-common_main" target="1.8" />
+      <module name="security-common_test" target="1.8" />
+      <module name="spring-rest-exception-handler_main" target="1.8" />
+      <module name="spring-rest-exception-handler_test" target="1.8" />
+      <module name="web-common_main" target="1.8" />
+      <module name="web-common_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

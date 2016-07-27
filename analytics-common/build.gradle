@@ -3,6 +3,7 @@ dependencies {
     compile 'com.alibaba.rocketmq:rocketmq-client:3.4.6'
     compile 'javax.servlet:javax.servlet-api:3.1.0'
     compile 'com.google.guava:guava:19.0'
+    compile 'com.kong.cloudstack:cs-context:0.1'
     compile project(':dap-common')
     compile project(':kafka-common')
     compile project(':context-common')

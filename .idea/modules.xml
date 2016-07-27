@@ -2,21 +2,51 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/analytics-common/analytics-common.iml" filepath="$PROJECT_DIR$/analytics-common/analytics-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/biz-common/biz-common.iml" filepath="$PROJECT_DIR$/biz-common/biz-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/context-common/context-common.iml" filepath="$PROJECT_DIR$/context-common/context-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dap-common/dap-common.iml" filepath="$PROJECT_DIR$/dap-common/dap-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-access/data-access.iml" filepath="$PROJECT_DIR$/data-access/data-access.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain-common/domain-common.iml" filepath="$PROJECT_DIR$/domain-common/domain-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kafka-common/kafka-common.iml" filepath="$PROJECT_DIR$/kafka-common/kafka-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mu-common/mu-common.iml" filepath="$PROJECT_DIR$/mu-common/mu-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mus-common/mus-common.iml" filepath="$PROJECT_DIR$/mus-common/mus-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/protocol-common/protocol-common.iml" filepath="$PROJECT_DIR$/protocol-common/protocol-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rmq-common/rmq-common.iml" filepath="$PROJECT_DIR$/rmq-common/rmq-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security-common/security-common.iml" filepath="$PROJECT_DIR$/security-common/security-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-rest-exception-handler/spring-rest-exception-handler.iml" filepath="$PROJECT_DIR$/spring-rest-exception-handler/spring-rest-exception-handler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web-common/web-common.iml" filepath="$PROJECT_DIR$/web-common/web-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-common/analytics-common.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-common/analytics-common.iml" group="analytics-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-common/analytics-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-common/analytics-common_main.iml" group="analytics-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/analytics-common/analytics-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/analytics-common/analytics-common_test.iml" group="analytics-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biz-common/biz-common.iml" filepath="$PROJECT_DIR$/.idea/modules/biz-common/biz-common.iml" group="biz-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biz-common/biz-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/biz-common/biz-common_main.iml" group="biz-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/biz-common/biz-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/biz-common/biz-common_test.iml" group="biz-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/context-common/context-common.iml" filepath="$PROJECT_DIR$/.idea/modules/context-common/context-common.iml" group="context-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/context-common/context-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/context-common/context-common_main.iml" group="context-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/context-common/context-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/context-common/context-common_test.iml" group="context-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dap-common/dap-common.iml" filepath="$PROJECT_DIR$/.idea/modules/dap-common/dap-common.iml" group="dap-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dap-common/dap-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/dap-common/dap-common_main.iml" group="dap-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dap-common/dap-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/dap-common/dap-common_test.iml" group="dap-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-access/data-access.iml" filepath="$PROJECT_DIR$/.idea/modules/data-access/data-access.iml" group="data-access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-access/data-access_main.iml" filepath="$PROJECT_DIR$/.idea/modules/data-access/data-access_main.iml" group="data-access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data-access/data-access_test.iml" filepath="$PROJECT_DIR$/.idea/modules/data-access/data-access_test.iml" group="data-access" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain-common/domain-common.iml" filepath="$PROJECT_DIR$/.idea/modules/domain-common/domain-common.iml" group="domain-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain-common/domain-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain-common/domain-common_main.iml" group="domain-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain-common/domain-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain-common/domain-common_test.iml" group="domain-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-common/kafka-common.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-common/kafka-common.iml" group="kafka-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-common/kafka-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-common/kafka-common_main.iml" group="kafka-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kafka-common/kafka-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kafka-common/kafka-common_test.iml" group="kafka-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mu-common/mu-common.iml" filepath="$PROJECT_DIR$/.idea/modules/mu-common/mu-common.iml" group="mu-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mu-common/mu-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mu-common/mu-common_main.iml" group="mu-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mu-common/mu-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mu-common/mu-common_test.iml" group="mu-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mus-common/mus-common.iml" filepath="$PROJECT_DIR$/.idea/modules/mus-common/mus-common.iml" group="mus-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mus-common/mus-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mus-common/mus-common_main.iml" group="mus-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mus-common/mus-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mus-common/mus-common_test.iml" group="mus-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol-common/protocol-common.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol-common/protocol-common.iml" group="protocol-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol-common/protocol-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol-common/protocol-common_main.iml" group="protocol-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol-common/protocol-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol-common/protocol-common_test.iml" group="protocol-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmq-common/rmq-common.iml" filepath="$PROJECT_DIR$/.idea/modules/rmq-common/rmq-common.iml" group="rmq-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmq-common/rmq-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rmq-common/rmq-common_main.iml" group="rmq-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rmq-common/rmq-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rmq-common/rmq-common_test.iml" group="rmq-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-common/security-common.iml" filepath="$PROJECT_DIR$/.idea/modules/security-common/security-common.iml" group="security-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-common/security-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/security-common/security-common_main.iml" group="security-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/security-common/security-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/security-common/security-common_test.iml" group="security-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-rest-exception-handler/spring-rest-exception-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-rest-exception-handler/spring-rest-exception-handler.iml" group="spring-rest-exception-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-rest-exception-handler/spring-rest-exception-handler_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-rest-exception-handler/spring-rest-exception-handler_main.iml" group="spring-rest-exception-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-rest-exception-handler/spring-rest-exception-handler_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-rest-exception-handler/spring-rest-exception-handler_test.iml" group="spring-rest-exception-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-common/web-common.iml" filepath="$PROJECT_DIR$/.idea/modules/web-common/web-common.iml" group="web-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-common/web-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web-common/web-common_main.iml" group="web-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-common/web-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web-common/web-common_test.iml" group="web-common" />
     </modules>
   </component>
 </project>

@@ -4,10 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ *
  * Created by Administrator on 2016/1/3.
  */
 public class DefaultUserContextImpl implements IUserContext{
-    protected Map<String, Object> contexts = new HashMap<>();
+    protected Map<String, Object> contexts = new HashMap<String, Object>();
 
     /**
      * 设置上下文，子类重载
@@ -16,7 +17,7 @@ public class DefaultUserContextImpl implements IUserContext{
         this.contexts = contexts;
     }
 
-    @Override
+
     public Map<String, Object> getContexts() {
         return contexts;
     }

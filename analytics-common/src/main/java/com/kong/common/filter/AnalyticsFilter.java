@@ -28,6 +28,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * http 请求 数据记录拦截器   支持 基于zk的云化配置和 非基于zk的云化配置两类
+ *  每个产品线都有自己的本地元数据描述文件；
+ *  每个产品线的日志数据都天然隔离；
+ *
+ *  此filter需要放在身份验证的filter之后
  * Created by Administrator on 2016/1/3.
  */
 public class AnalyticsFilter implements Filter{
