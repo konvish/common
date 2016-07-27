@@ -2,10 +2,10 @@ package com.kong.kafka;
 
 import com.kong.dap.dataservice.DapDataSender;
 import com.kong.dap.dataservice.MessageData;
-import com.kong.kafka.KafkaMQSingleton;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
+ *
  * Created by kong on 2016/1/3.
  */
 public class DefaultKafkaProducer {

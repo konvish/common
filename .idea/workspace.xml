@@ -2,40 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cae958b-de3f-40fd-af88-1de067e8a43b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/analytics-common/analytics-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/biz-common/biz-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/context-common/context-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dap-common/dap-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data-access/data-access.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/domain-common/domain-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kafka-common/kafka-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mu-common/mu-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mus-common/mus-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/protocol-common/protocol-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rmq-common/rmq-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/security-common/security-common.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spring-rest-exception-handler/spring-rest-exception-handler.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-common/web-common.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_codec_commons_codec_1_9.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_15_0_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_15_0_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_3_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_3_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_16_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapConnectInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataAccessServiceFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataReceiver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/IDapDataAccessService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/IpAndPort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/MessageData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/ResourceListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/KafkaDapDataAccessServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/KafkaRestProxyDataAccessServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analytics-common/build.gradle" afterPath="$PROJECT_DIR$/analytics-common/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/AnalyticsFilter.java" afterPath="$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/AnalyticsFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/biz-common/build.gradle" afterPath="$PROJECT_DIR$/biz-common/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/context-common/src/main/java/com/kong/common/context/DefaultUserContextImpl.java" afterPath="$PROJECT_DIR$/context-common/src/main/java/com/kong/common/context/DefaultUserContextImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-access/build.gradle" afterPath="$PROJECT_DIR$/data-access/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-common/build.gradle" afterPath="$PROJECT_DIR$/kafka-common/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kafka-common/src/main/java/com/kong/kafka/DefaultKafkaProducer.java" afterPath="$PROJECT_DIR$/kafka-common/src/main/java/com/kong/kafka/DefaultKafkaProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mu-common/build.gradle" afterPath="$PROJECT_DIR$/mu-common/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rmq-common/build.gradle" afterPath="$PROJECT_DIR$/rmq-common/build.gradle" />
     </list>
     <ignored path="common.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,9 +106,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -2927,7 +2910,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$APPLICATION_HOME_DIR$/qky-resource" value="13065710453679" />
-        <entry key="$PROJECT_DIR$" value="24717504577982" />
+        <entry key="$PROJECT_DIR$" value="24809672903196" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3220,25 +3203,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mu-common/build.gradle" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/DefaultAuthRequestFactory.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/core/filter/DelegableSecurityFilter.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/core/handler/AbstractTokenHandler.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/core/handler/EmbedTokenHandler.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/core/handler/TokenResolver.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/utils/LogErrorUtil.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/utils/UrlStringUtil.java" />
-        <option value="$PROJECT_DIR$/mu-common/src/main/resources/spring-iauth.xml" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/Request.java" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/RequestT.java" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/utils/RtnCodeEnum.java" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/utils/TBCConstants.java" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/Response.java" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/Responses.java" />
-        <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/ResponseT.java" />
         <option value="$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/ResponseTs.java" />
         <option value="$PROJECT_DIR$/rmq-common/src/main/java/com/kong/rmq/DefaultRMQProducer.java" />
-        <option value="$PROJECT_DIR$/rmq-common/build.gradle" />
         <option value="$PROJECT_DIR$/rmq-common/src/main/java/com/kong/rmq/RocketMQSingleton.java" />
         <option value="$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/apigen/annotation/ApiDesc.java" />
         <option value="$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/apigen/annotation/ApiParam.java" />
@@ -3271,6 +3237,23 @@
         <option value="$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/AnalyticsFilter.java" />
         <option value="$PROJECT_DIR$/biz-common/build.gradle" />
         <option value="$PROJECT_DIR$/context-common/src/main/java/com/kong/common/context/DefaultUserContextImpl.java" />
+        <option value="$PROJECT_DIR$/rmq-common/build.gradle" />
+        <option value="$PROJECT_DIR$/mu-common/build.gradle" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/IpAndPort.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapConnectInfo.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/MessageData.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataAccessServiceFactory.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataReceiver.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/IDapDataAccessService.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataSender.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/ResourceListener.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/KafkaDapDataAccessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/Utils.java" />
+        <option value="$PROJECT_DIR$/data-access/build.gradle" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/ReceiverLongPolling.java" />
+        <option value="$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/KafkaRestProxyDataAccessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/kafka-common/src/main/java/com/kong/kafka/DefaultKafkaProducer.java" />
+        <option value="$PROJECT_DIR$/kafka-common/build.gradle" />
       </list>
     </option>
   </component>
@@ -3288,8 +3271,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="414" />
-    <option name="y" value="194" />
+    <option name="x" value="625" />
     <option name="width" value="1287" />
     <option name="height" value="1040" />
   </component>
@@ -3374,8 +3356,6 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -3383,19 +3363,19 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kong.dap.dataservice" />
+      <recent name="cz.jirutka.spring.exhandler" />
+      <recent name="org.jeecgframework.poi.excel.entity.result" />
+      <recent name="org.jeecgframework.poi.exception.excel" />
+      <recent name="org.jeecgframework.poi.excel.entity.params" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program Files\JetBrains\IntelliJ IDEA 14.1.4\common\spring-rest-exception-handler\src\main\java\cz\jirutka\spring\exhandler" />
       <recent name="D:\Program Files\JetBrains\IntelliJ IDEA 14.1.4\common\spring-rest-exception-handler\src\main\java\cz\jirutka\spring\exhandler\handlers" />
       <recent name="D:\Program Files\JetBrains\IntelliJ IDEA 14.1.4\common\spring-rest-exception-handler\src\main\resources" />
       <recent name="D:\Program Files\JetBrains\IntelliJ IDEA 14.1.4\common\domain-common\src\main\java\org\jeecgframework\poi\excel\entity\params" />
       <recent name="D:\Program Files\JetBrains\IntelliJ IDEA 14.1.4\common\domain-common\src\main\java\org\jeecgframework\poi\excel\imports\verifys" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cz.jirutka.spring.exhandler" />
-      <recent name="org.jeecgframework.poi.excel.entity.result" />
-      <recent name="org.jeecgframework.poi.exception.excel" />
-      <recent name="org.jeecgframework.poi.excel.entity.params" />
-      <recent name="org.jeecgframework.poi.excel.export.base" />
     </key>
   </component>
   <component name="RunManager">
@@ -3856,7 +3836,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1469436284053" />
+    <option name="lastUpdateTimestamp" value="1469600212266" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -3884,12 +3864,20 @@
       <workItem from="1454429594203" duration="3671000" />
       <workItem from="1455715905383" duration="1231000" />
       <workItem from="1469436043238" duration="2089000" />
-      <workItem from="1469582924878" duration="811000" />
+      <workItem from="1469582924878" duration="9849000" />
     </task>
+    <task id="LOCAL-00001" summary="更新依赖">
+      <created>1469583769801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1469583769801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46227000" />
+    <option name="totallyTimeSpent" value="55265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -3901,35 +3889,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="414" y="194" width="1287" height="1040" extended-state="0" />
+    <frame x="625" y="0" width="1287" height="1040" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29861677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23270953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979658" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3946,6 +3934,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新依赖" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -3957,346 +3949,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/BizExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/ExtFastJsonHttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="82" column="121" selection-start-line="82" selection-start-column="121" selection-end-line="82" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/RawTypeReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/support/HttpMessageConverterUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/resources/exhandler/messages.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/interpolators/MessageInterpolatorAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/MapUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.4.RELEASE/6bb77fb5a402a814329db35e9678803d14ebf1bd/spring-context-4.2.4.RELEASE-sources.jar!/org/springframework/context/MessageSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/handlers/NoSuchRequestHandlingMethodExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/handlers/AbstractRestExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/ITypeReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-common/src/main/java/com/kong/common/restful/RestContextConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/messages/ErrorMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/RestHandlerExceptionResolverFactoryBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/RestHandlerExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/handlers/RestExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-rest-exception-handler/src/main/java/cz/jirutka/spring/exhandler/RestHandlerExceptionResolverBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/common/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/mapper/AnalyticsDataMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/pool/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analytics-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz-common/src/main/java/com/kong/common/dao/IBaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4180">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz-common/src/main/java/com/kong/common/enumration/SearchEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz-common/src/main/java/com/kong/common/init/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/AnalyticsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/context-common/src/main/java/com/kong/common/context/DefaultUserContextImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#252#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analytics-common/src/main/java/com/kong/common/filter/common/AnalyticsConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/context-common/src/main/java/com/kong/common/context/IUserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/context-common/src/main/java/com/kong/common/context/UserContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/biz-common/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Content.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Entry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Creator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Har.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/NameValuePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/ObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dap-common/src/main/java/com/kong/common/dap/model/webfilter/Timings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/BaseDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/BaseWrapper.java">
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/exception/BizException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -4304,31 +3957,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/BooleanWrapper.java">
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/exception/BizExceptionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/FloatWrapper.java">
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/LongWrapper.java">
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/ResponseT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/SearchFilter.java">
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/ResponseTs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -4336,11 +3989,411 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain-common/src/main/java/com/kong/common/domain/StringWrapper.java">
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/protocol/Responses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/utils/RtnCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protocol-common/src/main/java/com/kong/common/utils/TBCConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/domain/DatagroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/domain/ResourceGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/ActionPermServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/DatagroupDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/DatagroupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/DataModelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/UserDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/UserDatagroupServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/RoleUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/RoleResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/ResourceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/ResourceGridServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/ResourceActionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/ModelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mus-common/src/main/java/com/kong/common/managerui/service/impl/DataPermServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/UserNotExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/EncryptionCookieCredential.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/DefaultAuthRequestFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/DefaultAuthRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/token/AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/src/main/java/com/kong/common/managerui/iauth/client/DefaultAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mu-common/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/IpAndPort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#464#465#0" expanded="false" />
+            <element signature="e#496#497#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/MessageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#641#642#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#940#941#0" expanded="false" />
+            <element signature="e#971#972#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1070#1071#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#1140#1141#0" expanded="false" />
+            <element signature="e#1192#1193#0" expanded="false" />
+            <element signature="e#1236#1237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataAccessServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/IDapDataAccessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.10/0.10.0.0/37402af5307ea961391148198d07487c20ed4308/kafka_2.10-0.10.0.0-sources.jar!/kafka/javaapi/producer/Producer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/0.10.0.0/5c942da1fcd924bd79665bfd54193c7c9ef0cdb0/kafka-clients-0.10.0.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1324">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/0.10.0.0/5c942da1fcd924bd79665bfd54193c7c9ef0cdb0/kafka-clients-0.10.0.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="351" column="47" selection-start-line="351" selection-start-column="47" selection-end-line="351" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/ResourceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/KafkaDapDataAccessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2367#2368#0" expanded="false" />
+            <element signature="e#2399#2400#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapDataReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1599#1600#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/DapConnectInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/ReceiverLongPolling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="379" column="53" selection-start-line="379" selection-start-column="53" selection-end-line="379" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-access/src/main/java/com/kong/dap/dataservice/impl/KafkaRestProxyDataAccessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-common/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-common/src/main/java/com/kong/kafka/KafkaMQSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-common/src/main/java/com/kong/kafka/DefaultKafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

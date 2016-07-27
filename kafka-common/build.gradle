@@ -1,4 +1,7 @@
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'com.kong.cloudstack:cs-context:0.1'
+    compile 'com.kong.cloudstack:cs-dynconfig-client:0.1'
     compile project(':dap-common')
+    compile project(':data-access')
 }
