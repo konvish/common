@@ -1,6 +1,7 @@
 package com.kong.common.filter.common;
 
 /**
+ * 分析模块的基础属性
  * Created by kong on 2016/1/3.
  */
 public class AnalyticsConstants {

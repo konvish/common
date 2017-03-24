@@ -22,6 +22,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * 分析数据的映射
  * Created by kong on 2016/1/3.
  */
 public class AnalyticsDataMapper {
@@ -31,11 +32,23 @@ public class AnalyticsDataMapper {
     private ResponseInterceptorWrapper response;
     Message message;
 
+    /**
+     * 构造方法，request方式与response方式
+     * @param request request
+     * @param response response
+     */
     public AnalyticsDataMapper(RequestInterceptorWrapper request, ResponseInterceptorWrapper response) {
         this.request = request;
         this.response = response;
     }
 
+    /**
+     * 获取接收的分析数据
+     * @param requestReceivedTime 接收时间
+     * @param sendTime 发送时间
+     * @param waitTime 等待时间
+     * @return Entry
+     */
     public Entry getAnalyticsData(Date requestReceivedTime, long sendTime, long waitTime) {
         Entry entry = new Entry();
         entry.setClientIPAddress(this.request.getRemoteAddr());
@@ -47,9 +60,14 @@ public class AnalyticsDataMapper {
         return entry;
     }
 
+    /**
+     * 设置请求头
+     *
+     * @param requestHar 请求头
+     */
     private void setRequestHeaders(Request requestHar) {
         Enumeration headers = this.request.getHeaderNames();
-        List headerList = requestHar.getHeaders();
+        List<NameValuePair> headerList = requestHar.getHeaders();
         int size = 2;
 
         while(headers.hasMoreElements()) {
@@ -69,10 +87,14 @@ public class AnalyticsDataMapper {
         requestHar.setHeadersSize(size);
     }
 
+    /**
+     * 设置返回头
+     * @param responseHar 返回头
+     */
     private void setResponseHeaders(Response responseHar) {
         Collection headers = this.response.getHeaderNames();
         if(headers != null) {
-            List headerList = responseHar.getHeaders();
+            List<NameValuePair> headerList = responseHar.getHeaders();
             int size = 2;
             Iterator i$ = headers.iterator();
 
@@ -132,7 +154,7 @@ public class AnalyticsDataMapper {
         Content content = new Content();
         content.setEncoding(this.request.getCharacterEncoding());
         String mimeType = this.request.getContentType();
-        content.setMimeType("application/octet-stream");
+        content.setMimeType(DEFAULT_MIME_TYPE);
         if(mimeType != null && mimeType.length() > 0) {
             content.setMimeType(this.request.getContentType());
         }
@@ -164,7 +186,7 @@ public class AnalyticsDataMapper {
         Content content = new Content();
         content.setEncoding(this.response.getCharacterEncoding());
         String mimeType = this.response.getContentType();
-        content.setMimeType("application/octet-stream");
+        content.setMimeType(DEFAULT_MIME_TYPE);
         if(mimeType != null && mimeType.length() > 0) {
             content.setMimeType(mimeType);
         }

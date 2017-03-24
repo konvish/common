@@ -37,7 +37,9 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class AnalyticsFilter implements Filter{
     static final Logger logger = LoggerFactory.getLogger(AnalyticsFilter.class);
-    private ExecutorService analyticsServicexeExecutor;
+    //异步线程Service
+    private ExecutorService analyticsServiceExecutor;
+
     private ObjectPool<Work> pool;
     private boolean isAnlayticsEnabled = true;
 
@@ -45,7 +47,7 @@ public class AnalyticsFilter implements Filter{
     }
 
     public void destroy() {
-        this.analyticsServicexeExecutor.shutdown();
+        this.analyticsServiceExecutor.shutdown();
         this.pool.terminate();
     }
 
@@ -78,7 +80,7 @@ public class AnalyticsFilter implements Filter{
                 messageProperties.put("usercontext", UserContextHolder.getUserContext().getContexts());
             }
 
-            this.analyticsServicexeExecutor.execute(new SendAnalyticsTask(this.pool, messageProperties));
+            this.analyticsServiceExecutor.execute(new SendAnalyticsTask(this.pool, messageProperties));
         } catch (Throwable var14) {
             logger.error("Failed to send analytics data", var14);
         }
@@ -96,7 +98,7 @@ public class AnalyticsFilter implements Filter{
                     return new Messenger();
                 }
             };
-            this.analyticsServicexeExecutor = Executors.newFixedThreadPool(poolSize);
+            this.analyticsServiceExecutor = Executors.newFixedThreadPool(poolSize);
         }
 
     }

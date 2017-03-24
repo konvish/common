@@ -7,6 +7,7 @@ import java.util.List;
  * Created by kong on 2016/7/27.
  */
 public class DapDataSender {
+    //发送工具
     private String dapDAType = "kafka";
     private DapConnectInfo dapConnectInfo;
     private IDapDataAccessService dapDataAccessService;

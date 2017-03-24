@@ -1,6 +1,7 @@
 package com.kong.common.filter;
 
 /**
+ * 参数枚举类
  * Created by kong on 2016/1/3.
  */
 public class AnalyticsConstants {

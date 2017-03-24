@@ -9,6 +9,7 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 /**
+ * 自定义请求类
  * Created by kong on 2016/1/3.
  */
 @XmlAccessorType(XmlAccessType.FIELD)

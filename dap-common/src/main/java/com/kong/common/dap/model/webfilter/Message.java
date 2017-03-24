@@ -1,12 +1,15 @@
 package com.kong.common.dap.model.webfilter;
 
 import com.kong.common.dap.model.webfilter.Har;
+
 import java.util.Map;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
+
 /**
+ * 消息实体类
  * Created by kong on 2016/1/3.
  */
 @XmlAccessorType(XmlAccessType.FIELD)

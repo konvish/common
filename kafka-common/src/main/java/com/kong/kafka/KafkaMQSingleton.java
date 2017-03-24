@@ -7,6 +7,7 @@ import com.kong.dap.dataservice.DapDataSender;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
+ * kafka单例
  * Created by kong on 2016/1/3.
  */
 public class KafkaMQSingleton {

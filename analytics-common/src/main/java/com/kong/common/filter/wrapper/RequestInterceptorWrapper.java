@@ -16,16 +16,25 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
 
 /**
+ * 请求包装拦截器
+ *
  * Created by kong on 2016/1/3.
  */
 public class RequestInterceptorWrapper extends HttpServletRequestWrapper{
     private final String payload;
-    private Map<String, String> headerMap = new HashMap();
+    private Map<String, String> headerMap = new HashMap<String, String>();
 
+    /**
+     * 构造方法
+     * 获取request的数据转成String赋予payload
+     * @param request httpServletRequest
+     * @throws IOException
+     */
     public RequestInterceptorWrapper(HttpServletRequest request) throws IOException {
         super(request);
         StringBuilder content = new StringBuilder();
         BufferedReader reader = null;
+        //获取请求数据
         ServletInputStream in = request.getInputStream();
         if(in != null) {
             reader = new BufferedReader(new InputStreamReader(in));
@@ -43,8 +52,7 @@ public class RequestInterceptorWrapper extends HttpServletRequestWrapper{
         if(reader != null) {
             try {
                 reader.close();
-            } catch (IOException var7) {
-                ;
+            } catch (IOException e) {
             }
         }
 

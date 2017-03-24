@@ -5,7 +5,7 @@ import com.kong.dap.dataservice.MessageData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 /**
- *
+ * kafka生产者
  * Created by kong on 2016/1/3.
  */
 public class DefaultKafkaProducer {
@@ -26,7 +26,7 @@ public class DefaultKafkaProducer {
     }
 
     public void send(String product, String bizSystem, String tag, String from, String data) throws Exception {
-        MessageData messageData = new MessageData("RESOURCE_" + (product + "_" + bizSystem + "_" + tag).toUpperCase(), data);
+        MessageData messageData = new MessageData(KAFKA_PREFIX + (product + "_" + bizSystem + "_" + tag).toUpperCase(), data);
         this.dapDataSender.send(messageData);
     }
 
